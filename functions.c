@@ -4,7 +4,7 @@
 #include <math.h>
 
 void reverse(char*, int, int);
-void bubbleSort(int*, int, int*);
+void bubbleSort(int*, int);
 void swap(int*, int*);
 
 int base26_to_dec(char*);
@@ -21,7 +21,7 @@ void reverse(char *s, int start, int end) {
 	}
 }
 
-void bubbleSort(int *arr, int size, int *counts) {
+void bubbleSort(int *arr, int size) {
 	int i, j, times;
 	
 	for (i = 0; i < size - 1; i++) {
@@ -31,8 +31,6 @@ void bubbleSort(int *arr, int size, int *counts) {
 			if (*(arr+j) > *(arr+j+1)) {
 				swap(&*(arr+j), &*(arr+j+1));
 				times++;
-				
-				*counts += 1;
 			}
 		}
 		
