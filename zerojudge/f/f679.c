@@ -1,14 +1,25 @@
 #include <stdio.h>
 
-// 限制：必須為從小至大的陣列且數字僅出現 1 次
-// 回傳：找到數字回傳該數字所處陣列的 index，否則回傳 -1
 int SimpleBinarySearch(int[], int, int);
 
 int main() {
-	int ary[10] = {1, 2, 3, 4, 7, 8, 10, 11, 12, 30};
-	printf("%d\n", SimpleBinarySearch(ary, 10, 5));
-	printf("%d\n", SimpleBinarySearch(ary, 10, 1));
-	printf("%d\n", SimpleBinarySearch(ary, 10, 12));
+	int N, Q;
+	while (scanf("%d%d", &N, &Q) != EOF) {
+		int i = 0;
+		int x[N], T;
+		for (i = 0; i < N; i++) {
+			scanf("%d", &x[i]);
+		}
+		for (i = 0; i < Q; i++) {
+			scanf("%d", &T);
+			int result = SimpleBinarySearch(x, N, T);
+			if (result == -1) {
+				printf("No\n");
+			} else {
+				printf("Yes\n");
+			}
+		}
+	}
 	return 0;
 }
 
