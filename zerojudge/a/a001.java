@@ -1,6 +1,8 @@
+package zerojudge.a;
+
 import java.util.Scanner;
 
-public class JAVA {
+public class a001 {
 	public static void main(String[] args) {
 		Scanner cin = new Scanner(System.in);
 		String s;

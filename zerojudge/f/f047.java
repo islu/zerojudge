@@ -1,3 +1,5 @@
+package zerojudge.f;
+
 import java.util.*;
 
 public class f047 {

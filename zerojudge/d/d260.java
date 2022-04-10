@@ -1,3 +1,5 @@
+package zerojudge.d;
+
 import java.util.*;
 
 public class d260 {

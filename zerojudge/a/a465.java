@@ -1,3 +1,5 @@
+package zerojudge.a;
+
 import java.util.*;
 
 public class a465 {

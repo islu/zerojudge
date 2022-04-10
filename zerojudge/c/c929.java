@@ -1,3 +1,5 @@
+package zerojudge.c;
+
 import java.util.*;
 
 public class c929 {

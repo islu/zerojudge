@@ -1,3 +1,5 @@
+package zerojudge.f;
+
 import java.util.*;
 // Same: a465
 public class f005 {

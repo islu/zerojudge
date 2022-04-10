@@ -1,3 +1,5 @@
+package zerojudge.h;
+
 import java.util.*;
 
 public class h033 {

@@ -1,3 +1,5 @@
+package zerojudge.f;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
